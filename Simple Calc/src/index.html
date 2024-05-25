@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 id="welcome-msg">Welcome</h1> -->
+    <div id="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button onclick="clearNum('C')" class="orange">C</button>
+            <button onclick="deleteNum('del')" class="orange">del</button>
+            <button onclick="toCalculate('/')" class="orange">/</button>
+            <button onclick="toCalculate('%')" class="orange">%</button>
+            <button onclick="toCalculate('7')">7</button>
+            <button onclick="toCalculate('8')">8</button>
+            <button onclick="toCalculate('9')">9</button>
+            <button onclick="toCalculate('*')" class="orange">*</button>
+            <button onclick="toCalculate('4')" >4</button>
+            <button onclick="toCalculate('5')">5</button>
+            <button onclick="toCalculate('6')">6</button>
+            <button onclick="toCalculate('-')" class="orange">-</button>
+            <button onclick="toCalculate('1')">1</button>
+            <button onclick="toCalculate('2')">2</button>
+            <button onclick="toCalculate('3')">3</button>
+            <button onclick="toCalculate('+')" class="orange">+</button>
+            <button onclick="toCalculate('0')">0</button>
+            <button onclick="toCalculate('.')">.</button>
+            <button onclick="calculate()" class="btn">=</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
