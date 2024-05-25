@@ -1,5 +1,11 @@
 
+<p align="left">✨ Creating Projects and Finding bugs <br>📚 I'm currently learning Frontend Development <br>🎯 Goals: Create a projects with responsible design <br>🎲 Fun fact: ..</p>
 
+###
+
+<h3 align="left">I code with Html, Css, Javascript</h3>
+
+###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
